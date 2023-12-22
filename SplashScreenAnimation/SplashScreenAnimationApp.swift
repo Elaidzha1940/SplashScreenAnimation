@@ -13,7 +13,7 @@ import SwiftUI
 struct SplashScreenAnimationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }

@@ -1,7 +1,7 @@
 //  /*
 //
 //  Project: SplashScreenAnimation
-//  File: ContentView.swift
+//  File: SplashScreen.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 22.12.2023
 //
@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SplashScreen: View {
     @State private var isLoading: Bool = true
     
     var body: some View {
@@ -44,5 +44,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    SplashScreen()
 }
